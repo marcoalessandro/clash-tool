@@ -77,7 +77,7 @@ public class DataFileManager {
 			System.out.println("Error reading the file '"+fileNameL+"'");
 		}
 	}
-
+    
 	private void readBarracks() {
 		try {
 			FileReader fReader = new FileReader(fileNameB);
